@@ -26,24 +26,24 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 ### Overview
 |   Class   |                                Title                                |    Date     |
 | --------- | ------------------------------------------------------------------- | ----------- |
-| Lesson 00 | [Installfest](https://ga-students.github.io/js-dc/00-installfest) | May 9th |
-| Lesson 01 | [The Command Line & Git](https://ga-students.github.io/js-dc/01-command-line)| May 11th |
-| Lesson 02 | [Data Types](https://ga-students.github.io/js-dc/02-data-types) | May 16th |
-| Lesson 03 | [Control Flow](https://ga-students.github.io/js-dc/03-control-flow) | May 18th |
-| Lesson 04 | [Functions](https://ga-students.github.io/js-dc/04-functions)| May 23rd |
-| Lesson 05 | [Objects](https://ga-students.github.io/js-dc/05-objects) | May 25th |
-| Lesson 06 | **[Project 1](https://ga-students.github.io/js-dc/06-lab)** | May 30th |
-| Lesson 07 | [Intro to DOM](https://ga-students.github.io/js-dc/07-intro-to-dom)| June 1st |
-| Lesson 08 | [Events](https://ga-students.github.io/js-dc/08-events) | June 6th |
-| Lesson 09 | [Templating & Build Tools](https://ga-students.github.io/js-dc/09-templating)| June 8th  |
-| Lesson 10 | [Express](https://ga-students.github.io/js-dc/10-express) | June 13th  |
-| Lesson 11 | [CRUD & Databases](https://ga-students.github.io/js-dc/11-crud-and-dbs) | June 15th |
-| Lesson 12 | [APIs](https://ga-students.github.io/js-dc/12-apis)| June 20th |
-| Lesson 13 | [Application Architecture](https://ga-students.github.io/js-dc/13-architecture) | June 22nd |
-| Lesson 14 | [**Project 2** - HackerWall](https://ga-students.github.io/js-dc/14-lab02) | June 27th |
-| Lesson 15 | [Single Page Applications](https://ga-students.github.io/js-dc/15-spas) | June 29th |
-| Lesson 16 | [Authentication](https://ga-students.github.io/js-dc/16-authentication)| July 6th |
-| Lesson 17 | [Deploying Your App](https://ga-students.github.io/js-dc/17-deployment) | July 11th |
+| Lesson 00 | [Installfest](https://ga-students.github.io/JS-DC/00-installfest) | May 9th |
+| Lesson 01 | [The Command Line & Git](https://ga-students.github.io/JS-DC/01-command-line)| May 11th |
+| Lesson 02 | [Data Types](https://ga-students.github.io/JS-DC/02-data-types) | May 16th |
+| Lesson 03 | [Control Flow](https://ga-students.github.io/JS-DC/03-control-flow) | May 18th |
+| Lesson 04 | [Functions](https://ga-students.github.io/JS-DC/04-functions)| May 23rd |
+| Lesson 05 | [Objects](https://ga-students.github.io/JS-DC/05-objects) | May 25th |
+| Lesson 06 | **[Project 1](https://ga-students.github.io/JS-DC/06-lab)** | May 30th |
+| Lesson 07 | [Intro to DOM](https://ga-students.github.io/JS-DC/07-intro-to-dom)| June 1st |
+| Lesson 08 | [Events](https://ga-students.github.io/JS-DC/08-events) | June 6th |
+| Lesson 09 | [Templating & Build Tools](https://ga-students.github.io/JS-DC/09-templating)| June 8th  |
+| Lesson 10 | [Express](https://ga-students.github.io/JS-DC/10-express) | June 13th  |
+| Lesson 11 | [CRUD & Databases](https://ga-students.github.io/JS-DC/11-crud-and-dbs) | June 15th |
+| Lesson 12 | [APIs](https://ga-students.github.io/JS-DC/12-apis)| June 20th |
+| Lesson 13 | [Application Architecture](https://ga-students.github.io/JS-DC/13-architecture) | June 22nd |
+| Lesson 14 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/14-lab02) | June 27th |
+| Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) | June 29th |
+| Lesson 16 | [Authentication](https://ga-students.github.io/JS-DC/16-authentication)| July 6th |
+| Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) | July 11th |
 | Lesson 18 | **Project 3** Your App                                  | July 13th |
 | Lesson 19 | Final Project Presentations                                         | July 18th |
 
@@ -62,7 +62,7 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 
 #### Materials
 - [Lesson Plan](00-installfest/lesson_plan.md)
-- [Slides](https://ga-students.github.io/js-dc/00-installfest)
+- [Slides](https://ga-students.github.io/JS-DC/00-installfest)
 
 
 ### Class 01: Command Line
@@ -74,7 +74,7 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - Learn the basics of Git and GitHub
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/01-command-line)
+- [Slides](https://ga-students.github.io/JS-DC/01-command-line)
 - [Assignment](01-command-line-JS/assignment.md)
 - [Lesson Notes](01-command-line-JS/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=Tf3uu66NAdM)
@@ -88,7 +88,7 @@ Data types are the most atomic unit of any program. Javascript has many basic da
 - Create arrays and access values in them
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/02-data-types)
+- [Slides](https://ga-students.github.io/JS-DC/02-data-types)
 - [Assignment](02-data-types/assignment/assignment.md)
 - [Lesson Notes](02-data-types/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=_cZPOUf5Ddg)
@@ -102,7 +102,7 @@ Programming is often described as following a recipe - in this lesson, we discus
 - Understand how to implement different types of control flow, including `if` and `if/else statements`, `for` loops and `while` loops
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/03-control-flow)
+- [Slides](https://ga-students.github.io/JS-DC/03-control-flow)
 - [Assignment](03-control-flow/assignment/assignment.md)
 - [Lesson Notes](03-control-flow/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=KO0SdPEt044)
@@ -118,7 +118,7 @@ Now that we know how to work with data and control when certain actions are perf
 - Create and call a function that accepts parameters to solve a problem
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/04-functions)
+- [Slides](https://ga-students.github.io/JS-DC/04-functions)
 - [Assignment](04-functions/assignment.md)
 - [Lesson Notes](04-functions/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=89zXKZllUqI)
@@ -132,7 +132,7 @@ Our final class on Javascript as a language covers Objects. This lesson will als
 - Get and Set properties of Objects
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/05-objects)
+- [Slides](https://ga-students.github.io/JS-DC/05-objects)
 - [Assignment](05-objects/assignment.md)
 - [Lesson Notes](05-objects/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=5jAj3ZullDA)
@@ -141,10 +141,10 @@ Our final class on Javascript as a language covers Objects. This lesson will als
 Today's lesson is short and sweet! We'll go over npm and breaking our program out into multiple files then give you the rest of the time to work on the lab!
 
 #### Lab
-- [js-dc-Lab01](https://github.com/ga-students/js-dc-Lab01)
+- [JS-DC-Lab01](https://github.com/ga-students/JS-DC-Lab01)
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/06-lab)
+- [Slides](https://ga-students.github.io/JS-DC/06-lab)
 - [Assignment](06-lab/assignment.md)
 - [Lesson Notes](06-lab/lesson_plan.md)
 - [Mini-lessons](https://www.youtube.com/watch?v=zAUKqWrwV3A)
@@ -158,7 +158,7 @@ Today's lesson is short and sweet! We'll go over npm and breaking our program ou
 - Manipulate the DOM using JavaScript
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/07-intro-to-dom)
+- [Slides](https://ga-students.github.io/JS-DC/07-intro-to-dom)
 - [Assignment](07-intro-to-dom/assignment.md)
 - [Lesson Notes](07-intro-to-dom/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=YO3987ePPB8)
@@ -173,7 +173,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Learn about event propogation
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/08-events)
+- [Slides](https://ga-students.github.io/JS-DC/08-events)
 - [Assignment](08-events/assignment/)
 - [Lesson Notes](08-events/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=R0_9uYY6qDA)
@@ -185,7 +185,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - build a simple dynamic application using Handlebars and JS
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/09-templating/)
+- [Slides](https://ga-students.github.io/JS-DC/09-templating/)
 - [Assignment](09-templating/assignment.md)
 - [Lesson Notes](09-templating/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=SScBAes8kss)
@@ -198,7 +198,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Understand server architecture and build a server with `Express`
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/10-express)
+- [Slides](https://ga-students.github.io/JS-DC/10-express)
 - [Assignment](10-express/assignment.md)
 - [Lesson Notes](10-express/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=_7Xgg3XA4nk)
@@ -213,7 +213,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Set up a simple `Express` application that uses `Mongoose` as an ORM to connect to a `MongoDB` database
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/11-crud-and-dbs)
+- [Slides](https://ga-students.github.io/JS-DC/11-crud-and-dbs)
 - [Assignment](14-crud-and-dbs/assignment.md)
 - [Lesson Notes](14-crud-and-dbs/lesson_plan.md)
 
@@ -226,7 +226,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Build an API using `Express`
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/12-apis)
+- [Slides](https://ga-students.github.io/JS-DC/12-apis)
 - [Assignment](11-apis/assignment.md)
 - [Lesson Notes](11-apis/lesson_plan.md)
 
@@ -237,7 +237,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Learn about different architecture patterns for building applications
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/13-architecture)
+- [Slides](https://ga-students.github.io/JS-DC/13-architecture)
 - [Assignment](13-architecture/assignment.md)
 - [Lesson Notes](13-architecture/lesson_plan.md)
 - [Lesson](https://www.youtube.com/edit?o=U&video_id=n9ljXpAIpog)
@@ -254,7 +254,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Use Passport to authenticate users
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/15-authentication)
+- [Slides](https://ga-students.github.io/JS-DC/15-authentication)
 - [Assignment](15-authentication/assignment.md)
 - [Lesson Notes](15-authentication/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=FeEt9JgAtEo)
@@ -269,7 +269,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Build out a basic SPA
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/16-spas)
+- [Slides](https://ga-students.github.io/JS-DC/16-spas)
 - [Assignment](16-spas/assignment.md)
 - [Lesson Notes](16-spas/lesson_plan.md)
 
@@ -282,7 +282,7 @@ Today's class goes in depth on event driven development, responding to browser/u
 - Learn how to deploy a dynamic site
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc/17-deployment)
+- [Slides](https://ga-students.github.io/JS-DC/17-deployment)
 - [Assignment](17-deployment/assignment.md)
 - [Lesson Notes](17-deployment/lesson_plan.md)
 
