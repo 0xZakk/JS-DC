@@ -51,6 +51,7 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 ### Classes
 
 ### Class 00: Installfest
+Welcome to Intro to JavaScript! Our first class will focus on getting set up, learning the course objectives and meeting the instructors, staff and your fellow students.
 
 #### Learning Objectives
 * Get to know your classmates, instructors, and staff members.
@@ -75,7 +76,6 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/01-command-line)
-- [Assignment](01-command-line-JS/assignment.md)
 - [Lesson Notes](01-command-line-JS/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=Tf3uu66NAdM)
 
@@ -89,7 +89,6 @@ Data types are the most atomic unit of any program. Javascript has many basic da
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/02-data-types)
-- [Assignment](02-data-types/assignment/assignment.md)
 - [Lesson Notes](02-data-types/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=_cZPOUf5Ddg)
 
@@ -97,13 +96,11 @@ Data types are the most atomic unit of any program. Javascript has many basic da
 Programming is often described as following a recipe - in this lesson, we discuss why it's more nuanced than that by looking at control flow - ways we can control what code gets executed and the conditions under which it gets executed.
 
 #### Learning Objectives
-- Fork a repository and make a pull request
 - Understand different types of control flow including linear, conditional and iterative
 - Understand how to implement different types of control flow, including `if` and `if/else statements`, `for` loops and `while` loops
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/03-control-flow)
-- [Assignment](03-control-flow/assignment/assignment.md)
 - [Lesson Notes](03-control-flow/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=KO0SdPEt044)
 
@@ -119,7 +116,6 @@ Now that we know how to work with data and control when certain actions are perf
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/04-functions)
-- [Assignment](04-functions/assignment.md)
 - [Lesson Notes](04-functions/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=89zXKZllUqI)
 
@@ -133,7 +129,6 @@ Our final class on Javascript as a language covers Objects. This lesson will als
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/05-objects)
-- [Assignment](05-objects/assignment.md)
 - [Lesson Notes](05-objects/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=5jAj3ZullDA)
 
@@ -145,12 +140,12 @@ Today's lesson is short and sweet! We'll go over npm and breaking our program ou
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/06-lab)
-- [Assignment](06-lab/assignment.md)
 - [Lesson Notes](06-lab/lesson_plan.md)
 - [Mini-lessons](https://www.youtube.com/watch?v=zAUKqWrwV3A)
 - [Lab walk through](https://www.youtube.com/watch?v=QXXGT0-Mz-M&feature=youtu.be)
 
 ### Class 07: Intro to the DOM
+It's time to start working in the browser! Today's class will cover how to execute Javascript in the browser, kicking of section 2 of the class.
 
 #### Learning Objectives
 - Understand the basics of working with the Document Object Model
@@ -159,26 +154,24 @@ Today's lesson is short and sweet! We'll go over npm and breaking our program ou
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/07-intro-to-dom)
-- [Assignment](07-intro-to-dom/assignment.md)
 - [Lesson Notes](07-intro-to-dom/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=YO3987ePPB8)
 
-
 ### Class 08: Events
-Today's class goes in depth on event driven development, responding to browser/user events with Javascript  and writing event handlers.
+Today's class goes in depth on event driven development: responding to browser/user events with Javascript  and writing event handlers.
 
 #### Learning Objectives
-- Implement events using JavaScript
+- Listen for events using JavaScript
 - Understand how to work with events and how to implement event handlers
 - Learn about event propogation
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/08-events)
-- [Assignment](08-events/assignment/)
 - [Lesson Notes](08-events/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=R0_9uYY6qDA)
 
 ### Class 09: Templating
+We can use JavaScript for more than just the logic of our application: we can also use it as part of building the front end! Templating is a way for us to break up large HTML files into small, manageable parts that we can control using JavaScript.
 
 #### Learning Objectives
 - Use Handlebars templates to turn JS into HTML
@@ -186,11 +179,11 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/09-templating/)
-- [Assignment](09-templating/assignment.md)
 - [Lesson Notes](09-templating/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=SScBAes8kss)
 
 ### Class 10: Express
+Time to jump back to the server! In this class, we'll learn about how the client and server communicate as well as how to build out a server using Express.
 
 #### Learning Objectives
 - Explain the two parts of a web application
@@ -199,12 +192,11 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/10-express)
-- [Assignment](10-express/assignment.md)
 - [Lesson Notes](10-express/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=_7Xgg3XA4nk)
 
-
 ### Class 11: CRUD and Databases
+By this point, we've built out our views and our server, all we're missing is a way to persist data. We'll learn about MongoDB and Mongoose - tools we can use to setup a database and work with it through our server.
 
 #### Learning Objectives
 - Understand the differences between different types of databases
@@ -214,7 +206,6 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/11-crud-and-dbs)
-- [Assignment](14-crud-and-dbs/assignment.md)
 - [Lesson Notes](14-crud-and-dbs/lesson_plan.md)
 
 
@@ -227,7 +218,6 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/12-apis)
-- [Assignment](11-apis/assignment.md)
 - [Lesson Notes](11-apis/lesson_plan.md)
 
 
@@ -238,7 +228,6 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/13-architecture)
-- [Assignment](13-architecture/assignment.md)
 - [Lesson Notes](13-architecture/lesson_plan.md)
 - [Lesson](https://www.youtube.com/edit?o=U&video_id=n9ljXpAIpog)
 
@@ -255,7 +244,6 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/15-authentication)
-- [Assignment](15-authentication/assignment.md)
 - [Lesson Notes](15-authentication/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=FeEt9JgAtEo)
 
@@ -270,7 +258,6 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/16-spas)
-- [Assignment](16-spas/assignment.md)
 - [Lesson Notes](16-spas/lesson_plan.md)
 
 
@@ -283,7 +270,6 @@ Today's class goes in depth on event driven development, responding to browser/u
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/17-deployment)
-- [Assignment](17-deployment/assignment.md)
 - [Lesson Notes](17-deployment/lesson_plan.md)
 
 
