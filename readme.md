@@ -25,7 +25,7 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 
 ### Overview
 |   Class   |                                Title                                |
-| --------- | ------------------------------------------------------------------- |
+| :--- | :---: |
 | Lesson 00 | [Installfest](https://ga-students.github.io/JS-DC/00-installfest) |
 | Lesson 01 | [The Command Line & Git](https://ga-students.github.io/JS-DC/01-command-line)|
 | Lesson 02 | [Data Types](https://ga-students.github.io/JS-DC/02-data-types) |
@@ -48,7 +48,7 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 | Lesson 19 | Final Project Presentations                                         |
 
 
-## Classes
+### Classes
 
 ### Class 00: Installfest
 
