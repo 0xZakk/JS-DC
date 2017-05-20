@@ -24,28 +24,28 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 ## Schedule
 
 ### Overview
-|   Class   |                                Title                                |    Date     |
-| --------- | ------------------------------------------------------------------- | ----------- |
-| Lesson 00 | [Installfest](https://ga-students.github.io/JS-DC/00-installfest) | May 9th |
-| Lesson 01 | [The Command Line & Git](https://ga-students.github.io/JS-DC/01-command-line)| May 11th |
-| Lesson 02 | [Data Types](https://ga-students.github.io/JS-DC/02-data-types) | May 16th |
-| Lesson 03 | [Control Flow](https://ga-students.github.io/JS-DC/03-control-flow) | May 18th |
-| Lesson 04 | [Functions](https://ga-students.github.io/JS-DC/04-functions)| May 23rd |
-| Lesson 05 | [Objects](https://ga-students.github.io/JS-DC/05-objects) | May 25th |
-| Lesson 06 | **[Project 1](https://ga-students.github.io/JS-DC/06-lab)** | May 30th |
-| Lesson 07 | [Intro to DOM](https://ga-students.github.io/JS-DC/07-intro-to-dom)| June 1st |
-| Lesson 08 | [Events](https://ga-students.github.io/JS-DC/08-events) | June 6th |
-| Lesson 09 | [Templating & Build Tools](https://ga-students.github.io/JS-DC/09-templating)| June 8th  |
-| Lesson 10 | [Express](https://ga-students.github.io/JS-DC/10-express) | June 13th  |
-| Lesson 11 | [CRUD & Databases](https://ga-students.github.io/JS-DC/11-crud-and-dbs) | June 15th |
-| Lesson 12 | [APIs](https://ga-students.github.io/JS-DC/12-apis)| June 20th |
-| Lesson 13 | [Application Architecture](https://ga-students.github.io/JS-DC/13-architecture) | June 22nd |
-| Lesson 14 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/14-lab02) | June 27th |
-| Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) | June 29th |
-| Lesson 16 | [Authentication](https://ga-students.github.io/JS-DC/16-authentication)| July 6th |
-| Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) | July 11th |
-| Lesson 18 | **Project 3** Your App                                  | July 13th |
-| Lesson 19 | Final Project Presentations                                         | July 18th |
+|   Class   |                                Title                                |
+| --------- | ------------------------------------------------------------------- |
+| Lesson 00 | [Installfest](https://ga-students.github.io/JS-DC/00-installfest) |
+| Lesson 01 | [The Command Line & Git](https://ga-students.github.io/JS-DC/01-command-line)|
+| Lesson 02 | [Data Types](https://ga-students.github.io/JS-DC/02-data-types) |
+| Lesson 03 | [Control Flow](https://ga-students.github.io/JS-DC/03-control-flow) |
+| Lesson 04 | [Functions](https://ga-students.github.io/JS-DC/04-functions)|
+| Lesson 05 | [Objects](https://ga-students.github.io/JS-DC/05-objects) |
+| Lesson 06 | **[Project 1](https://ga-students.github.io/JS-DC/06-lab)** |
+| Lesson 07 | [Intro to DOM](https://ga-students.github.io/JS-DC/07-intro-to-dom)|
+| Lesson 08 | [Events](https://ga-students.github.io/JS-DC/08-events) |
+| Lesson 09 | [Templating & Build Tools](https://ga-students.github.io/JS-DC/09-templating)|
+| Lesson 10 | [Express](https://ga-students.github.io/JS-DC/10-express) |
+| Lesson 11 | [CRUD & Databases](https://ga-students.github.io/JS-DC/11-crud-and-dbs) |
+| Lesson 12 | [APIs](https://ga-students.github.io/JS-DC/12-apis)|
+| Lesson 13 | [Application Architecture](https://ga-students.github.io/JS-DC/13-architecture) |
+| Lesson 14 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/14-lab02) |
+| Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) |
+| Lesson 16 | [Authentication](https://ga-students.github.io/JS-DC/16-authentication)| 
+| Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) |
+| Lesson 18 | **Project 3** Your App                                  |
+| Lesson 19 | Final Project Presentations                                         |
 
 
 ## Classes
