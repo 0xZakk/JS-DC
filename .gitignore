@@ -1,0 +1,6 @@
+.DS_Store
+\_*
+notes.md
+node_modules
+*.swp
+*.un~
