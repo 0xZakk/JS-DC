@@ -1,5 +1,10 @@
 # Objects
 
+## Learning Objectives:
+- Create and modify JavaScript Objects
+- Use Objects to model complex data
+- Get and Set properties of Objects
+
 ## Class Structure
 - Welcome to Class
 - Review previous class

@@ -1,5 +1,12 @@
 # Data Types
 
+# Learning Objectives
+- Describe the concept of a "data type" and how it relates to variables.
+- Declare, assign to, and manipulate data stored in a variable.
+- Create arrays and access values in them.
+
+# Introduction
+
 - Welcome to Class
 - Go over the Learning Objectives
 - draw Git chart on board for review

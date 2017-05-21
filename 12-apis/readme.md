@@ -1,5 +1,10 @@
 # APIs
 
+## Learning Objectives
+- Describe what an API is and how to use it
+- Understand how to work with an API
+- Build an API using `Express`
+
 ## Class Structure
 - Welcome to Class
 - Go over Learning Objectives

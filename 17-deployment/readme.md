@@ -1,5 +1,11 @@
 # Deployment
 
+# Learning Objectives
+- Understand microservices and containers
+- Understand cloud hosting
+- Learn how to deploy static and dynamic web applications
+# Deployment
+
 ## Class Structure
 - Welcome to Class
 - Do the warm up exercise

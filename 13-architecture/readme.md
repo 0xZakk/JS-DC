@@ -1,4 +1,8 @@
-# MVC Architecture
+# Application Architecture
+
+## Learning Objectives
+- Understand each part of the MVC architecture
+- Use MVC to organize an application
 
 
 ## Class Structure
