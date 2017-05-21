@@ -210,6 +210,10 @@ By this point, we've built out our views and our server, all we're missing is a 
 
 
 ### Class 12: APIs
+Often when building an app, the data we want to use exists elsewhere and
+we need a way to use it in our app - we can do this through APIs! This
+class will cover working with external data sources through AJAX and
+building APIs with Express.
 
 #### Learning Objectives
 - Describe what an API is and how to use it
@@ -222,6 +226,9 @@ By this point, we've built out our views and our server, all we're missing is a 
 
 
 ### Class 13: Application Architecture
+We now know almost everything we need to in order to build full scale,
+feature-rich applications! The last step is to learn how we can organize
+the different parts of our application.
 
 #### Learning Objectives
 - Learn about different architecture patterns for building applications
@@ -236,6 +243,9 @@ By this point, we've built out our views and our server, all we're missing is a 
 
 
 ### Class 15: Authentication
+This lesson covers authentication - the process of verifying user
+identities. As part of our discussion on authentication, we'll also
+learn about middleware.
 
 #### Learning Objectives
 - Understand middleware in an express application
@@ -249,6 +259,10 @@ By this point, we've built out our views and our server, all we're missing is a 
 
 
 ### Class 16: Single Page Applications
+Many of the web applications you use on a daily basis have one key
+difference with the applications we've built so far: there is no page
+refresh; everything happens within a single page. This lesson covers
+what Single Page Applications are and how we can build them.
 
 #### Learning Objectives
 - Describe the basics of authentication
@@ -262,6 +276,8 @@ By this point, we've built out our views and our server, all we're missing is a 
 
 
 ### Class 17: Deployment
+For our last lesson, we'll cover making our applications live and
+publishing them so that others can see and use them!
 
 #### Learning Objectives
 - Understand the difference between static and dynamic applications
