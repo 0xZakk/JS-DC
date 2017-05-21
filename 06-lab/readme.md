@@ -95,8 +95,6 @@ In `three.js` lets declare three methods directly on the `module.exports` object
 ## Lab Overview
 The goal of today's lab is to build out a working prototype in the command line of the card game `War`.
 
-Explain the rules of War
-
 The rules of war are pretty simple:
 - A deck of cards is shuffled and divided evenly between two players
 - Each player draws the first card in their deck and puts it down
@@ -104,3 +102,9 @@ The rules of war are pretty simple:
 - Gameplay continues with each player drawing a card and the winner collecting both cards and adding them to their hand, until a player has no more cards left.
 - If the players draw cards that match, they keep drawing another card each until someone draws a higher valued card
   - that player then adds all of the cards to their hand
+
+The lab can be found here: https://github.com/ga-students/JS-DC-Lab-01
+
+Your completed lab is due, by pull request, before the start of our next class.
+
+Best of luck!
