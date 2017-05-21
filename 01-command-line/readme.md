@@ -1,13 +1,9 @@
 # The Command Line
 
-# Learning Objectives
+## Learning Objectives
 - Learn how to work in the Terminal
 - Learn the basics of Git and GitHub
 
-# The Command Line
-
-- Welcome to Class
-- Go over the Learning Objectives
 
 ## The Terminal
 

@@ -1,10 +1,8 @@
 # Control Flow
 
-# Learning Objectives
+## Learning Objectives
 - Understand different types of control flow including linear, conditional and iterative
 - Understand how to implement different types of control flow, including `if` and `if/else statements`, `for` loops and `while` loops
-
-# Introduction
 
 ## Class Structure
 - Welcome to Class
