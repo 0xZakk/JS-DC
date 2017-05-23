@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none" />
 ## Class 04: Functions
 
 ---
@@ -48,6 +48,23 @@ myFunction() // => 'This is my first function'
 ```
 
 --
+### Arrow Functions
+```
+  const sayHey = () => {
+    console.log('hey')
+  }
+```
+
+--
+### Exercise 1
+```
+  function doExerciseOne() {
+    console.log('profit')
+  }
+  doExerciseOne()
+```
+
+--
 ### Parameters
 ```
 function sayThanks( name ) {
@@ -88,6 +105,14 @@ var myNumber = add( 5, 10 )
 ```
 
 --
+### Default Parameter Values
+```
+  function add( num1, num2 = 1 ) {
+    return num1 + num2
+  }
+```
+
+--
 ### Function Scope
 Scope determines where variables are considered defined
 
@@ -95,4 +120,4 @@ Scope determines where variables are considered defined
 ## Exercise
 
 ---
-:# Thank you!
+# Thank you!

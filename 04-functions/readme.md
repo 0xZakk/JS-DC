@@ -28,7 +28,7 @@ Have students break out into four groups of 3-4 students. Each group is assigned
 *Goal is to introduce students to the concept of functions and at a high level why they're important, before going into the syntax and use of functions*
 
 Looking back,
-- we've learnt the basic data types in JavaScripts (numbers, booleans, strings) and we've learnt how to store them in variables
+- we've learnt the basic data types in JavaScript (numbers, booleans, strings) and we've learnt how to store them in variables
 - so, we've learnt about data and how to store it
 - last class, we learnt about control flow, which is how we could shape and how it reacted to what our data was.
 - if a number (i.e. some data stored in a variable) is greater than 5, then do this, otherwise do that.
@@ -66,6 +66,16 @@ function myFunction() {
 myFunction()
 ```
 - so now we've gone through the two steps of using functions: declaration and invocation
+
+### Arrow Functions
+- As of ES6, there's a new shorthand syntax for declaring
+functions: arrow functions
+
+```
+  const sayHey = () => {
+    console.log('hey')
+  }
+```
 
 *Exercise 01 ( 10 minutes )*
 
@@ -236,7 +246,7 @@ That means we can store functions in a variable - or in an array, or in an objec
 
 ## Functional Programming
 - now that we've covered declaring functions and how to use them, it's time to take a step back and think at a higher level
--  here, we're going to think about functions as functions, in the mathematical sense
+- here, we're going to think about functions as functions, in the mathematical sense
 - functional programming is a programming paradigm that is derived from mathematics
 - entire languages that are purely/solely functional, like haskell, and supersets of javascript that enforce functional programming, like elm.
 
@@ -247,7 +257,7 @@ Two criteria for pure functions:
 
 - this is a paradigm of programming that many people like to follow, one of it's biggest use cases is that it will often lead to fewer bugs in your programs
 
-### Making a function pure
+##### Making a function pure
 We have the following function for determining if it is currently a leap year:
 ```
 function isCurrentYearLeapYear() {
