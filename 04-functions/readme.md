@@ -257,7 +257,7 @@ Two criteria for pure functions:
 
 - this is a paradigm of programming that many people like to follow, one of it's biggest use cases is that it will often lead to fewer bugs in your programs
 
-##### Making a function pure
+###### Making a function pure
 We have the following function for determining if it is currently a leap year:
 ```
 function isCurrentYearLeapYear() {

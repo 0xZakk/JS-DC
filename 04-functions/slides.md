@@ -120,4 +120,4 @@ Scope determines where variables are considered defined
 ## Exercise
 
 ---
-# Thank you!
+## Thank you!
