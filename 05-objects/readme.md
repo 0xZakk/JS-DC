@@ -85,7 +85,6 @@ Getting data:
 
 We can use both to get and set properties and methods of our object
 
-
 ## JSON
 *Sidebar and talk about JSON*
 - Quick sidebar to talk about JSON
@@ -104,7 +103,6 @@ Modeling:
   - on some level they give us a way to organize data and functions that are all related to each other, but we can do that in a way that models some real world thing that we're trying to emulate in our program
   - What are some common things we may want to model in an application?
     - a user, a class or lesson, etc
-
 
 - lets create an object that models a car
 - we have all this to create a car, but what we don't have is a way - based on this - to take this one car and create multiple versions of this object to represent different types of cars
