@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none" />
 ## Class 05: Objects
 
 ---
@@ -9,12 +9,9 @@
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
 | 30 min | Review                                   |
-| 30 min | Objects                                  |
-| 5  min | Break                                    |
-| 50 min | Objects                                  |
-| 5  min | Break                                    |
-| 30 min | Exercise                                 |
-| 15 min | Closing Questions & Exit                 |
+| 90 min | Objects                                  |
+| 30 min | Object Oriented Programming              |
+| 5  min | Closing Questions & Exit                 |
 
 ---
 ## Review
@@ -39,6 +36,35 @@
 - Methods: functions within an object
 
 --
+### Our First Object
+```
+  let Person = {
+    'first name': 'Zakk',
+    lastName: 'Fleischmann'
+  }
+```
+
+--
+### Objects
+- Can store anything in an object
+- Can use objects to model real world things
+
+--
+### Objects
+```
+  let Person = {
+    firstName: 'Zakk',
+    favoriteColors: ['green', 'blue'],
+    height: {
+      feet: 6,
+      inches: 4
+    },
+    isShort: false,
+    sayHello: ( name ) => console.log( `hello ${name}` )
+  }
+```
+
+--
 ### Data Modeling with Objects
 - Grouping data and functionality
 - Model some real world object (like a car)
@@ -59,6 +85,19 @@
 - reassignment: `myObject['property'] = 1`
 
 --
+### Looping over properties in an object
+- first get keys of an object as an array
+- loop over array of keys and look up value
+
+--
+### Looping over properties in an object
+```
+  Object.keys( person ).forEach((prop) => {
+    console.log(`${ prop }: ${ person[ prop ] }`)
+  })
+```
+
+--
 ### Sidebar: JSON
 - JavaScript Object Notation
 - lightweight data format (like SQL, but nothing like SQL)
@@ -73,7 +112,6 @@
 | class       | a generic thing     |
 | instance    | a specific thing    |
 | method      | class functionality |
-| prototype   | first instance      |
 
 ---
 ## Exercise

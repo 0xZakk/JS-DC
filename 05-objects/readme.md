@@ -18,6 +18,7 @@
 - Exit Tickets
 
 ## Review: Functions
+- Review homework assignment as a group
 
 ## Introduction to Objects
 *The goal of this section is to introduce students to the basics of JavaScript Objects: what they are and why and how we use them*
@@ -71,6 +72,7 @@ The Anatomy:
 - we close with what we call a method
 - as you can see from this object, we can put anything into an object: a string, an array, another object, a function  
 
+*Exercise 01*
 
 ## Working with Objects
 *Now that students know how to create objects, this section should introduce them to the concepts of working with objects: getting/setting properties in an object and creating object methods*
