@@ -60,7 +60,9 @@
       inches: 4
     },
     isShort: false,
-    sayHello: ( name ) => console.log( `hello ${name}` )
+    sayHello: ( name ) => {
+      console.log( `hello ${name}` )
+    }
   }
 ```
 
