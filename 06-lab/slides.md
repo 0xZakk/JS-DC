@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none" />
 ## Class 06: Lab 01
 
 ---
@@ -56,12 +56,23 @@ Todays' lab is to build out a working prototype for a command line implementatio
 - declare a winner
 
 --
+### Getting Started
+Don't jump right into coding!
+- What classes might you need?
+- What logic might you need?
+- Can you break out the game into chunks that you can work on
+semi-independently?
+
+--
 ### Getting Unstuck
 What should I do if I get stuck?
 1. retrace your steps and `console.log` everything
 2. look for similar problems you've already solved
 3. ask your neighbor for help
 4. put your hand up or slack Zakk & Christine
+
+--
+## Do not try to copy and paste code
 
 --
 # Good luck!
