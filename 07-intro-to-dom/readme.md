@@ -16,10 +16,6 @@
 - Exit Tickets
 
 
-
-
-
-
 ## Lab review
 - How do students feel it went?
 - What did people find difficult?
@@ -31,11 +27,6 @@
 - Are students excited about the challenge?
 
 *Go through solution briefly with students*
-
-
-
-
-
 
 ## Looking Ahead
 - finished part 1 of the course
@@ -57,12 +48,6 @@
   - We'll close this section off by talking about application architecture - this lesson will focus on how we break up our application into different parts, what functionality do we put where and why
 - our lab for this class will be a clone of the popular Hacker News site
 - one we know how to build applications probably around lesson 11 or 12 we're going to start thinking about the final project - we'll do some early ideation to figure out what you want to build and get started at a very high level
-
-
-
-
-
-
 
 ## JS In the Browser
 **Goals:
@@ -112,11 +97,6 @@ Method 2: External js files
 - using the `script` tag but giving it a path to a JS file
 *Modify the `script` tag to import `index.js` and reload the page, showing that the file runs. Talk about the difference between loading js at the beginning versus end of a document*
 
-
-
-
-
-
 ## Intro to the DOM
 **Goals:
 - understand what the DOM is
@@ -139,10 +119,6 @@ Method 2: External js files
 - this is important terminology for us to be familiar with
 - when we're working with the DOM, we typically mean we're working with DOM nodes (i.e. nodes of the DOM tree)
 
-
-
-
-
 ## Working with the DOM
 **Goals:
 - how do we use JS to work with the DOM?
@@ -162,10 +138,6 @@ Same happens with JS being imported through a `script` tag
 - `document.querySelector('.my-class')`
 - `document.querySelectorAll('.my-class')`
 - `document.querySelectorAll('div')`
-
-
-
-
 
 ### Getting data from the DOM
 **Goals:
@@ -203,11 +175,6 @@ Same happens with JS being imported through a `script` tag
 
 **Probably ready for a break right about now**
 
-
-
-
-
-
 ### Setting data in the DOM
 **Goals:
 - understand and use the methods for inserting data into the DOM
@@ -221,8 +188,6 @@ We've talked now about how to get stuff from the DOM, next we're going to talk a
 - review what methods and properties it has
 - how do we get the text of the element as a string?
 - how can we manipulate the style of an element?
-
-
 
 ### Exercises
 Build a Table of contents

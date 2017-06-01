@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
 ## Class 07: Intro to the DOM
 
 ---
@@ -9,10 +9,8 @@
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
 | 30 min | Review the Lab                           |
-| 5  min | Break                                    |
 | 25 min | JS In the Browser                        |
 | 45 min | Intro to the DOM & Working with the DOM  |
-| 5  min | Break                                    |
 | 50 min | Working with the DOM cont'd              |
 | 5  min | Closing Questions & Exit                 |
 
@@ -30,7 +28,7 @@ How did it go?
 | ---------- | ------------------------ |
 |   **07**   | **Intro to the DOM**     |
 |     08     | Events                   |
-|     09     | Templating & Build Tools |
+|     09     | Templating               |
 |     10     | Express                  |
 |     11     | Databases & CRUD         |
 |     12     | APIs                     |
