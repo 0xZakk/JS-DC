@@ -8,10 +8,8 @@
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 45 min | Warm Up Exercise                         |
-| 5  min | Break                                    |
+| 45 min | Review & Warm Up Exercise                |
 | 45 min | Events and event handlers                |
-| 5  min | Break                                    |
 | 30 min | Events and event handlers cont'd         |
 | 30 min | Events mini lab                          |
 | 5  min | Closing Questions & Exit                 |
@@ -23,7 +21,7 @@
 | ---------- | ------------------------ |
 |     07     | Intro to the DOM         |
 |   **08**   | **Events**               |
-|     09     | Templating & Build Tools |
+|     09     | Templating               |
 |     10     | Express                  |
 |     11     | Databases & CRUD         |
 |     11     | APIs                     |
@@ -31,14 +29,14 @@
 |     13     | Lab #2                   |
 
 ---
+## Homework Review!
+
+---
 ## Warmup Exercise: Build a Slideshow!!
 In the `/warmup` directory
 
 ---
 ## Events
-
---
-### Event Driven Development
 
 --
 ### Types of Events
@@ -75,51 +73,30 @@ In the `/warmup` directory
 - focus
 - blur
 
---
-### Event Handlers
+---
+## Events
 
 --
 ### Working with Events
-- Browser fires an event
-- Action on an element triggers an event
+- listening for events
+- responding (handling) events
 
 --
-### Exercise 01
-
---
-### `window.onload` versus `document.onload`
-- different across browsers
-- `document.onload` - when the DOM is ready
-- `window.onload` - when the page is ready (including images, assets, etc)
-
---
-### Writing our first event handlers
-- `document.onreadystatechange = function() { ... }`
-- `window.onload = functionReference`
-
---
-### Event Listeners
+### Event Listeners & Handlers
 ```
-var button = document.querySelector('.js-button')
+let button = document.querySelector('.js-button')
 button.onclick = function() { ... }
 button.addEventListener("click", function() { ... })
 ```
+
+--
+### Exercise 1
 
 --
 ### The Event object
 - Passed to our event handler as a parameter/argument
 - contains useful information about the event
 - methods for controlling the event
-
---
-### Stopping the default event behavior
-- `event.preventDefault()`
-- avoid navigating to a url when a link is clicked
-
---
-### Stop event propagation
-- `event.stopPropagation()`
-
 
 --
 ### Anatomy of an Event Handler
