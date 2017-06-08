@@ -18,7 +18,6 @@
 - How did people feel about the assignment?
 - Do we feel confident about our understanding of working with events?
 - Was this a fun / good / helpful assignment?
-- Size off assignment: bigger / smaller?
 - jQuery - what do people think of jQuery? Did anyone redo the pixart assignment with jQuery?
 
 ## jQuery
@@ -35,9 +34,12 @@ Cons:
 - promotes a not great way of thinking about the DOM and building web applications
 
 Why don't we spend class time on learning it?
-- I'm conflicted about whether to teach it.
+- The first time I taught this class, I was conflicted about whether to teach it.
 - This is a course on JavaScript and it would be a bit of a cop out to teach jQuery
 - My fear is students wouldn't learn to understand the most important aspect of JavaScript, build dynamic web applications
+- jQuery is starting to be phased out and fewer and fewer
+people are using it, now that JavaScript the language is
+getting the attention it needs, in terms or regular updates
 - If you know it or you want to learn, go for it and feel free to use it in your homework assignments
 
 ## Templating
@@ -45,28 +47,6 @@ Why don't we spend class time on learning it?
   1. gives us a way to be modular about how we construct a page for a user
   2. lets us react to user input and change parts or all of a page
   3. lets us get data into the page and respond when that data changes by updating the page
-
-### Types of Templating Engines / Languages
-- 3 classifications of templating Languages
-  - recognize them by (1) their syntax and (2) their feature set
-- Jade / Pug:
-  - html processing component gives us everything a templating engine does but includes a cleaner, more terse way to write html
-- Nunjucks / Swig:
-  - logic-full templating (can process/manupulate data)
-  - EJS - embeded JavaScript (port of ERB: Embeded Ruby)
-- Handlebars / Mustache
-  - logic-less (typically), typically recognized with `{{}}`
-
-### Relation to web components
-- if you've ever looked at react, you may have seen something like this (ref to component in slide)
-- this is the opposite approach to templating
-- in templating, the templates are solely for displaying data
-  - especially true with handlebars (which is mostly logic-less)
-- we often need some way of efficiently render variations of the same template depending on the data
-  - this problem is what gave rise to logic-full templating
-  - logic-full templating tries to - as the name suggests - provide logic in our templates (i.e. in html)
-  - requires a lot of additional effort
-  - components/react solution is to do the opposite, bring html into our JS, so we can use JS to build out our markup
 
 ### Handlebars
 - we're going to be using handlebars
@@ -179,6 +159,9 @@ JSON:
 ### Turning Handlebars into Views
 Now we know how to use handlebars, lets use it to build out views for our application.
 
+- Exercise 1
+
+### Building our To Do Application Using Handlebars
 Step 1:
 First we need to get handlebars locally. We can use `npm` but for this were going to link to the library directly:
 

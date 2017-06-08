@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
 ## Class 09: Templating
 
 ---
@@ -8,7 +8,7 @@
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 20 min | Review                                   |
+| 30 min | Review                                   |
 | 30 min | Warmup                                   |
 | 10 min | WTF is jQuery                            |
 | 80 min | Intro to Templating                      |
@@ -62,45 +62,6 @@ Refactor slideshow to respond to events
 - Bring functionality to our markup
 
 --
-### Types of Templating Languages/Engines
-3 Flavors of templating:
-- Jade / Pug
-- Nunjucks / Swig ( EJS, sort of )
-- Handlebars / Mustache
-
---
-### Jade / Pug
-
-<img src="../assets/09-templating-jade.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
-
-
---
-### Nunjucks / Swig
-
-<img src="../assets/09-templating-nunjucks.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
-
-
---
-### EJS
-
-<img src="../assets/09-templating-ejs.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
-
-
---
-### Handlebars / Mustache
-
-<img src="../assets/09-templating-handlebars.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
-
-
-
---
-### Relation to Web Components
-
-<img src="../assets/09-templating-react.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
-
-
-
---
 ### Up and Running with Handlebars
 http://tryhandlebarsjs.com/
 
@@ -109,15 +70,15 @@ http://tryhandlebarsjs.com/
 
 ---
 ## Final Projects
-
-- [Assignment](https://github.com/ga-students/js-dc-4/tree/master/final-project)
+- [Assignment](https://github.com/ga-students/js-dc-5/tree/master/final-project)
 - [Ideas](https://gallery.generalassemb.ly/WDI)
 
 --
 
 ### Final Project Schedule
 
-- Idea Submission: April 4
-- UI Draft: April 18
-- In Class Lab Time: April 27
-- Presentations/Due: May 2
+- Initial Proposals: June 15th
+- Idea Submission: June 22nd
+- UI Draft: July 6th 
+- In Class Lab Time: July 13th
+- Presentations/Due: July 18th 
