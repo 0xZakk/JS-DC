@@ -34,6 +34,10 @@
 ## Homework Review
 
 ---
+## Warmup Exercise
+Refactor slideshow to respond to events
+
+---
 ## jQuery
 
 --
@@ -47,10 +51,6 @@
 - it's big and slow
 - makes it difficult to actually learn JavaScript
 - promotes a not great way of thinking about the DOM and building web applications
-
----
-## Warmup Exercise
-Refactor slideshow to respond to events
 
 ---
 ## Templating
