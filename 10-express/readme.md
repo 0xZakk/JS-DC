@@ -15,12 +15,6 @@
 - Closing Questions / Tying up loose ends
 - Exit Tickets
 
-## Quick note on homework
-- didn't want to assign a ton of homework
-
-## Quick note on the Lesson
-- What we're going to try today is building out an application
-
 ## Web Application Architecture
 __Goal: (a) Cover the basic architecture of a full stack application, (b) Understand the difference between the client and the server, (c) understand how the client and the server communicate.__
 
@@ -73,50 +67,17 @@ _make a joke about getting married ... ?_
 - like any good communication style, HTTP is structured
 - we can be explicit about which requests we can receive and most importantly, which we can respond to
 - you've no doubt seen and worked with HTTP requests in your life
-- whenever you navigate to a webpage, you're making a http request and when the page loads you've received the HTTP response
-- A metaphor that is often used to describe this process is the USPS
-  - we send in a request, we get back a response
-  - our request is like an invoice - we're asking for something
-  - the response the response to the invoice (the payment)
+- whenever you navigate to a webpage, you're making a http request
+- and when the page loads you've received the HTTP response
 
-### HTTP Request: URL
-- Universal Resource Locator
-- continuing with our metaphor of an invoice - the URL represents where we're sending our invoice to - like the address
-- the address can have a couple of different parts to it
+### HTTP Request
+- Two types of requests:
+  - `GET` request - we're asking the server to send us something
+    - When we navigate to a url, we're asking the server for the HTML of the page we're trying to load
+  - `POST` request - we're asking the server to update or save something
+    - When we submit a for, we're askin the server to save the information from that form
 
-`http://www.domain.com:1234/path/to/resource?a=b&x=y`
-
-__Draw associations__
-
-Anatomy of a HTTP request (URL):
-- protocol: `http:`
-- host: `www.domain.com`
-- port: `1234` (channel through which we can send and receive communications)
-- path: `/path/to/resource`
-- query parameters: `?a=b&x=y`
-
-### HTTP Request: Method
-Meta data about our request
-​- "Cookie"​ - a list of cookies that have been set on the browser
-​- "Auth"​ - encrypted auth information
-​- "Content-type"​ - tells server what kind of content is inside the request
-- ### HTTP Request: Header
-
-### HTTP Request: Body
-Optional extra text data we can send to the server. Especially useful for ​PUT​ and ​POST​ requests.
-
-Body data is typically in the form of JSON (JavaScript Object Notation) or Form Data.
-
-### HTTP: Response
-When a server receives a request, it processes that request and then sends a response to the client.
-
-If the request is an invoice, a response is the payment being sent back.
-
-### HTTP: Response: Status Code
-Every HTTP Response has a status code that represents whether or not the request was successfully fulfilled.
-
-Common Status Codes:
-
+### HTTP Response
 - ​2XX​ Success
 ​ - 200​ OK - the request was processed successfully
 - ​3XX​ Redirects - the URL has changed
@@ -127,26 +88,6 @@ Common Status Codes:
 - ​5XX​ Problem with the server
   - ​500​ Generic server error
   - ​503​ Service Unavailable (usually happens when traffic is high)
-
-### HTTP: Response: Header
-Just like the request, a response can also have headers describing metadata.
-
-### HTTP: Response: Body
-The body of a response can contain:
-
-- HTML if we are requesting a webpage
-- CSS if we're requesting linked stylesheets
-- JS if we're requesting scripts
-- JSON if we're requesting data
-
-
-Sum Up:
-- We're making an HTTP Request, the metaphor for this is sending an invoice
-- where we want to send the invoice to is the _URL_
-- what we want our invoice to achieve is the _method_ (cover letter for our invoice)
-- the supporting information for our invoice is the _header_
-- the **SOMETHING** is the _body_
-
 
 __BREAK__
 

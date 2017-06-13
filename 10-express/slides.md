@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
 ## Class 10: Express
 
 ---
@@ -9,11 +9,8 @@
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
 | 10 min | Final Project                            |
-| 15 min | Web Application Architecture             |
-| 25 min | HTTP                                     |
-| 5  min | Break                                    |
-| 50 min | Our First Server                         |
-| 5  min | Break                                    |
+| 15 min | Intro to Web Applications                |
+| 90 min | Introduction to Express                  |
 | 50 min | Pokedex                                  |
 | 5  min | Closing Questions & Exit                 |
 
@@ -34,17 +31,17 @@
 ---
 ## Final Projects
 
-- [Assignment](https://github.com/ga-students/js-dc-4/tree/master/final-project)
+- [Assignment](https://github.com/ga-students/js-dc-5/tree/master/final-project)
 - [Ideas](https://gallery.generalassemb.ly/WDI)
 
 --
 
 ### Final Project Schedule
 
-- Idea Submission: April 4
-- UI Draft: April 18
-- In Class Lab Time: April 27
-- Presentations/Due: May 2
+Idea Submission: June 20th¬
+UI Draft: July 6th¬
+In Class Lab Time: July 13th¬
+Presentations/Due: July 18th¬
 
 ---
 ## Homework Review
@@ -69,9 +66,6 @@
 --
 ### The Server
 
---
-### Client and Server Relationship
-
 ---
 ### Communication
 
@@ -79,44 +73,25 @@
 ### Communication Structure
 Hyper Text Transfer Protocol
 
---
-### HTTP Request: URL
-`http://www.domain.com:1234/path/to/resource?a=b&x=y`
-<br /><br />
-protocol | port | path | query parameters | host
+---
+### HTTP:
+1. Request
+2. Response
 
---
-### HTTP Request: Method
-|        |                  |
-| ------ | ---------------- |
-| GET    | ​read​ some data   |
-| POST   | ​create​ some data |
-| PUT    | ​update​ some data |
-| DELETE | ​delete​ some data |
+---
+### 1. Request
+1. `GET` request
+2. `POST` request
 
---
-### HTTP Request: Header
-Meta data about our request
-​"Cookie"​ - a list of cookies that have been set on the browser
-​"Auth"​ - encrypted auth information
-​"Content-type"​ - tells server what kind of content is inside the request
-​"Origin"​ - where the request came from
-
---
-### HTTP Request: Body
-Text data we send to the server
-
---
-### HTTP Response
-
---
-### HTTP Response: Status Code
-
---
-### HTTP Response: Header
-
---
-### HTTP Response: Body
+---
+### 2. Response
+Status codes:
+|   |   |
+| -- | -- |
+| 2XX | OK - request processed successfully |
+| 3XX | Redirect - url has changed |
+| 4XX | Error - problem with request |
+| 5XX | Error - problem with server |
 
 --
 ## Important Concepts to takeaway
@@ -125,9 +100,8 @@ Text data we send to the server
 | Client | The front end of our Application |
 | Server | The back end of our application |
 | HTTP | Communication between client and server |
-| HTTP Request | Request for data from the front end of our application |
-| URL | Universal Resource Locator |
-| HTTP Response | Servers response after processing the request |
+| Request | Request for data from the front end of our application |
+| Response | Servers response after processing the request |
 
 ---
 ## Our First Server
