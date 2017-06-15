@@ -81,6 +81,7 @@ Walk through on how to build the pokedex
 --
 ### Key Terms
 | Term | Definition |
+| --- | --- |
 | relational database | Data stored in tables and rows |
 | non-relational database (NoSQL) | Data in unstructured collections |
 | SQL | Structured Query Language |
