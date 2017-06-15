@@ -1,6 +1,6 @@
 
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
 ## Class 11: CRUD and Databases
 
 ---
@@ -8,11 +8,8 @@
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 40 min | Review Express & Pokedex                 |
-| 20 min | Introduction to Databases & CRUD         |
-| 10 min | Break                                    |
-| 50 min | Databases & CRUD continued               |
-| 10 min | Break                                    |
+| 30 min | Review Express & Pokedex                 |
+| 70 min | Introduction to Databases & CRUD         |
 | 50 min | Guestbook Exercise                       |
 | 5  min | Closing Questions & Exit                 |
 
@@ -48,6 +45,7 @@
 
 --
 ### 3. Describe (generally) the steps involved in setting up a basic web application using `express`.
+(hint: 3 steps)
 
 ---
 ## Homework Review
@@ -67,37 +65,18 @@ Walk through on how to build the pokedex
 - A way to store our data so we can access it later
 
 --
-### A brief history
-- One of the first things computers we're used for
-- The 'data base' was a stack of punch cards
-
---
-### A brief history - 1960s
-- first DBMS introduced, CODASYL
-- found records with one of three methods:
-  (a) primary key
-  (b) navigating relationships
-  (c) scanning all records sequentially
-
---
-### A brief history: 1970s
-- first relational database is created
-- data is organized in to tables
-- each entity gets its own table
-- SQL
-
---
-### A brief history: SQL
+### Introduction: SQL
 - Structured Query Language
+- data organized by relation
 
 --
-### A brief history: ORM
+### Introduction: NoSQL
+- rejects the strict relational structuring of data
+
+--
+### Introduction: ORM
 - Object-Relational Mappings
 - part of a movement to make data storage more object oriented
-
---
-### A brief history: NoSQL
-- rejects the strict relational structuring of data
 
 --
 ### Key Terms
@@ -110,6 +89,10 @@ Walk through on how to build the pokedex
 ---
 ## Database Operations
 `CRUD`
+
+---
+## Database Operations
+Create - Read - Update - Delete
 
 --
 ### CRUD: Create
@@ -137,9 +120,9 @@ Installing MongoDB: <br>
 __Follow the Installation and Setup instructions__
 
 ---
-## First App: Guestbook
-We want to build an app that lets anyone who visits our site create an entry in a guestbook.
+## First App: Pokedex
+We're going to make it so that we can make and edit pokemon!
 
 ---
 ## Second App: To Do List
-We're going to build a to do list application that lets us create and manage to do list items, and even edit them.
+We want to build an app that lets anyone who visits our site create an entry in a guestbook.

@@ -53,40 +53,24 @@ We're adding a really crucial component today, which is __persistence__: a way o
 Almost every application you can think of uses a database in some way.  
 
 ### History
-__Goal: provide a brief history of databases__
 - one of the first things databases were used for
 - computers would take in punch cards and punch holes in to them to represent data, like census data
 - these punch cards would then be indexed and stored in lockers where they could be retrieved later and updated or deleted
-
-1960s:
-  - the first Database Management System comes out
-  - uses a model of linked lists, sort of like an array
-  - every record in the database has a unique id
-  - you can find records using one of three methods:
-    (1) a record's primary key
-    (2) navigating relationships between records
-    (3) scanning all records sequentially
-
-1970s:
-  - relational databse is introduced
-  - instead of storing records in a free-form linked list, a relational database stores data in tables
-  - each type of data or entity gets its own table
-  - takes off and becomes really popular - in the 70s we have SQL
 
 SQL:
   - Structured Query Language
   - Management System or Query Language for relational databases
   - specifically built for specifying and retrieving combinations of rows and columns from a relational database
 
+NoSQL:
+  - rejects the strict relational structuring of data
+  - avoid having to research what data conceivably needs to be tracked
+
 ORM:
   - SQL keeps going strong starting in the 70s and through on into the 90s and early 00s
   - in the 90s, there is a movement to make data more object oriented
   - affects how data is stored in the DB and how we work with it outside of the DB, and trying to bring these in to alignment
   - it was difficult/inconvenient to translate from a programm object (or model) to database tables
-
-NoSQL:
-  - rejects the strict relational structuring of data
-  - avoid having to research what data conceivably needs to be tracked
 
 ## Working with Databases
 If we think about stored data on a really general level there are really only four things we can do with it:
@@ -114,14 +98,6 @@ Create - Read - Update - Delete
 ### Delete
 - `remove` method
 - find a aprticular record and remove it from the database
-
-## Downloading MongoDB
-__Goal: give students 30 minutes or so to get mongo installed__
-- make sure everyone follows both the installation and setup instructions
-- if students run in to problems, you may have to change the permissions of `/data/db` so that Mongo can read/write to that directory
-- if anyone has a lot of trouble or can't get mongo installed for some reason, have them use vagrant-mongobox as a last resort:
-  - https://github.com/bobthecow/vagrant-mongobox
-  - http://justinhileman.info/article/mongodb-virtual-machine/
 
 ## Guestbook
 __Goal: (1) review setting up a basic express application, (2) how to submit forms / make post requests and capture that request on the server, and (3) how to set up a database (using mongoose) and save records to a database__
