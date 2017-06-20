@@ -1,6 +1,5 @@
 
-
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
 ## Class 08: MVC
 
 ---
@@ -8,13 +7,43 @@
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
+| 15 min | Mid-course Survey Results                |
 | 30 min | Homework Review                          |
-| 30 min | Intro to MVC                             |
-| 10 min | Break                                    |
-| 50 min | MVC cont'd                               |
-| 10 min | Break                                    |
-| 50 min | MVC cont'd                               |
+| 130 min | Intro to MVC                            |
 | 5  min | Closing Questions & Exit Tickets         |
+
+---
+## Mid-course Survey Results
+
+--
+### Agenda
+1. Review key findings
+2. Discuss next steps
+
+--
+### Key Findings
+1. Pace of the class
+
+--
+### Key Findings
+2. Availability of instructors for help
+
+--
+### Key Findings
+3. Feedback is helpful! So are ideas!
+
+--
+### Next Steps
+- Keep doing the 'Key Takeaways'
+- Implement check-ins after lessons
+- Scheduled office hours
+- Syllabus changes
+
+--
+### Schedule change
+- moved lesson on APIs to next Tuesday
+- lab is one class earlier, students have the weekend to work on it
+- today's class on MVC architecture is a review of the last 6 classes
 
 ---
 ## Looking Ahead
@@ -26,9 +55,9 @@
 |     09     | Templating                   |
 |     10     | Express                      |
 |     11     | Databases & CRUD             |
-|     11     | APIs                         |
 |   **12**   | **Application Architecture** |
 |     13     | Lab #2                       |
+|     14     | APIs                         |
 
 
 ---
@@ -86,14 +115,12 @@
 
 - [Assignment](https://github.com/ga-students/JS-DC-4/final-project)
 - [Ideas](https://gallery.generalassemb.ly/WDI)
-- [Repository](https://github.com/ga-students/JS-DC-4-FinalProject)
 
 --
 
 ### Final Project Schedule
 
-- Idea Submission: April 4
--
-- UI Draft: April 18
-- In Class Lab Time: April 27
-- Presentations/Due: May 2
+Idea Submission: June 22th
+UI Draft: July 6th
+In Class Lab Time: July 13th
+Presentations/Due: July 18th

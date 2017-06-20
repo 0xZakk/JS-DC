@@ -38,9 +38,9 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 | Lesson 09 | [Templating & Build Tools](https://ga-students.github.io/JS-DC/09-templating)|
 | Lesson 10 | [Express](https://ga-students.github.io/JS-DC/10-express) |
 | Lesson 11 | [CRUD & Databases](https://ga-students.github.io/JS-DC/11-crud-and-dbs) |
-| Lesson 12 | [APIs](https://ga-students.github.io/JS-DC/12-apis)|
-| Lesson 13 | [Application Architecture](https://ga-students.github.io/JS-DC/13-architecture) |
-| Lesson 14 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/14-lab02) |
+| Lesson 12 | [Application Architecture](https://ga-students.github.io/JS-DC/13-architecture) |
+| Lesson 13 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/14-lab02) |
+| Lesson 14 | [APIs](https://ga-students.github.io/JS-DC/12-apis)|
 | Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) |
 | Lesson 16 | [Authentication](https://ga-students.github.io/JS-DC/16-authentication)| 
 | Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) |
@@ -208,8 +208,23 @@ By this point, we've built out our views and our server, all we're missing is a 
 - [Slides](https://ga-students.github.io/JS-DC/11-crud-and-dbs)
 - [Lesson Notes](14-crud-and-dbs/lesson_plan.md)
 
+### Class 12: Application Architecture
+We now know almost everything we need to in order to build full scale,
+feature-rich applications! The last step is to learn how we can organize
+the different parts of our application.
 
-### Class 12: APIs
+#### Learning Objectives
+- Learn about different architecture patterns for building applications
+
+#### Materials
+- [Slides](https://ga-students.github.io/JS-DC/12-architecture)
+- [Lesson Notes](13-architecture/lesson_plan.md)
+- [Lesson](https://www.youtube.com/edit?o=U&video_id=n9ljXpAIpog)
+
+### Class 13: Lab 2
+[Lab 2](13-lab02/readme.md)
+
+### Class 14: APIs
 Often when building an app, the data we want to use exists elsewhere and
 we need a way to use it in our app - we can do this through APIs! This
 class will cover working with external data sources through AJAX and
@@ -221,26 +236,8 @@ building APIs with Express.
 - Build an API using `Express`
 
 #### Materials
-- [Slides](https://ga-students.github.io/JS-DC/12-apis)
-- [Lesson Notes](11-apis/lesson_plan.md)
-
-
-### Class 13: Application Architecture
-We now know almost everything we need to in order to build full scale,
-feature-rich applications! The last step is to learn how we can organize
-the different parts of our application.
-
-#### Learning Objectives
-- Learn about different architecture patterns for building applications
-
-#### Materials
-- [Slides](https://ga-students.github.io/JS-DC/13-architecture)
-- [Lesson Notes](13-architecture/lesson_plan.md)
-- [Lesson](https://www.youtube.com/edit?o=U&video_id=n9ljXpAIpog)
-
-### Class 14: Lab 2
-[Lab 2](14-lab02/readme.md)
-
+- [Slides](https://ga-students.github.io/JS-DC/14-apis)
+- [Lesson Notes](14-apis/lesson_plan.md)
 
 ### Class 15: Authentication
 This lesson covers authentication - the process of verifying user
