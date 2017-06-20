@@ -1,6 +1,6 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
-## Class 08: MVC
+## Class 12: MVC
 
 ---
 ### Agenda
