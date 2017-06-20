@@ -38,9 +38,9 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 | Lesson 09 | [Templating & Build Tools](https://ga-students.github.io/JS-DC/09-templating)|
 | Lesson 10 | [Express](https://ga-students.github.io/JS-DC/10-express) |
 | Lesson 11 | [CRUD & Databases](https://ga-students.github.io/JS-DC/11-crud-and-dbs) |
-| Lesson 12 | [Application Architecture](https://ga-students.github.io/JS-DC/13-architecture) |
-| Lesson 13 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/14-lab02) |
-| Lesson 14 | [APIs](https://ga-students.github.io/JS-DC/12-apis)|
+| Lesson 12 | [Application Architecture](https://ga-students.github.io/JS-DC/12-architecture) |
+| Lesson 13 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/13-lab02) |
+| Lesson 14 | [APIs](https://ga-students.github.io/JS-DC/14-apis)|
 | Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) |
 | Lesson 16 | [Authentication](https://ga-students.github.io/JS-DC/16-authentication)| 
 | Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) |
