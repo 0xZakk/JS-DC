@@ -42,7 +42,7 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 | Lesson 13 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/13-lab02) |
 | Lesson 14 | [APIs](https://ga-students.github.io/JS-DC/14-apis)|
 | Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) |
-| Lesson 16 | [Authentication](https://ga-students.github.io/JS-DC/16-authentication)| 
+| Lesson 16 | [Databases #2](https://ga-students.github.io/JS-DC/16-dbs2)| 
 | Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) |
 | Lesson 18 | **Project 3** Your App                                  |
 | Lesson 19 | Final Project Presentations                                         |
@@ -245,6 +245,8 @@ identities. As part of our discussion on authentication, we'll also
 learn about middleware.
 
 #### Learning Objectives
+- Describe the basics of authentication
+- Use Passport to authenticate users
 - Understand middleware in an express application
 - Describe the basics of authentication
 - Use Passport to authenticate users
@@ -255,17 +257,14 @@ learn about middleware.
 - [Lesson](https://www.youtube.com/watch?v=FeEt9JgAtEo)
 
 
-### Class 16: Single Page Applications
-Many of the web applications you use on a daily basis have one key
-difference with the applications we've built so far: there is no page
-refresh; everything happens within a single page. This lesson covers
-what Single Page Applications are and how we can build them.
+### Class 16: Databases Part 2
+In our second lesson on Databases, we'll dive deeper in to MongoDB and learn advanced querying techniques.
 
 #### Learning Objectives
-- Describe the basics of authentication
-- Use Passport to authenticate users
-- Understand the architecture of a SPA
-- Build out a basic SPA
+- Understand the basics of promises
+- List the various forms of validation we can apply to our model
+- Use subdocuments to associate resources
+- Learn about advanced querying
 
 #### Materials
 - [Slides](https://ga-students.github.io/JS-DC/16-spas)
