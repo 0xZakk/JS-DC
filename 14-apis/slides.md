@@ -1,87 +1,112 @@
 
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
-## Class 12: APIs
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
+## Class 14: APIs
 
 ---
 ### Agenda
 | Timing | Topic                     |
 | ------ | ------------------------- |
 | 5  min | Check In                  |
-| 30 min | Warmup                    |
-| 20 min | Introduction to AJAX      |
-| 10 min | Break                     |
-| 20 min | Working with AJAX         |
-| 30 min | Working with APIs         |
-| 10 min | Break                     |
-| 20 min | Working with APIs         |
-| 30 min | Building an API cont'd    |
+| 50 min | Lab Review                |
+| 50 min | Working with AJAX         |
+| 50 min | Working with APIs         |
 | 5  min | Closing Questions & Exit  |
 
 ---
 ## Looking Ahead
-
 | Lesson No. |        Topic             |
-| ---------- | ------------------------ |
-|     07     |   Intro to the DOM       |
-|     08     | Events                   |
-|     09     | Templating               |
-|     10     | Express                  |
-|     11     | Databases & CRUD         |
-|   **11**   | **APIs**                 |
-|     12     | Application Architecture |
-|     13     | Lab #2                   |
+| ---------- | -----------------------  |
+|   **14**   | **APIs**                 |
+|     15     | Authentication           |
+|     16     | Databases Part 2         |
+|     17     | Deployment               |
+|     18     | Final Project            |
+|     19     | Presentations            |
 
 ---
-### Warmup Exercise
+### Lab Review
+
+---
+## APIs
 
 --
+### APIs
+1. Working with APIs
+2. Building an API
+
+--
+### APIs
+Application Programmable Interface
+
+--
+### APIs
+1. Working with APIs on the Client
+2. Working with APIs on the Server
+3. Building a simple API
+
+---
 ## AJAX
 
 --
-### Introduction to Ajax
+### Introduction to AJAX
+- Asynchronous JavaScript and XML
 - Way for the client to communicate with the server
-- Doesn't require a page refresh
+- Asynchronous: doesn't require a page refresh
 
-
---
-### The 4 Benefits of AJAX
-1. Callbacks
-2. Asynchronous Calls
-3. User-Friendly
-4. Increase Speed
+---
+### AJAX in client side JavaScript
+2 implementations:
+1. `XMLHttpRequest()`
+2. `fetch()`
 
 --
-### 1. Callbacks
-- Ajax is used to perform a callback, making a quick round trip to and from the server to retrieve and/or save data without posting the entire page back to the server
-- What benefits could this have?
+### XMLHttpRequest
+```
+let req = new XMLHttpRequest()
+req.onreadystatechange = handleRequest
+req.open('GET', 'http://pokedexapi.com/')
+req.send()
+```
 
 --
-### 2. Asynchronous Calls
-- Ajax allows you to make Asynchronous calls to a web server
-- The browser can avoid waiting for all data to arrive before allowing the user to act
-- State Description
-      0	The request is not initialized.
-      1	The request has been set up.
-      2	The request has been sent.
-      3	The request is in process.
+### Fetch
+```
+  fetch('http://pokedexapi.com/')
+    .then((response) => {
+      console.log( response )
+    })
+```
+--
+### Which should you use?
+<iframe src="https://giphy.com/embed/3otPoUjeyRisIDxPhK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/filmeditor-mean-girls-movie-3otPoUjeyRisIDxPhK">via GIPHY</a></p>
 
 --
-### 3. User-Friendly
-- Ajax enabled applications will always be more responsive, feel faster and thus provide a better user experience
+### Fetch is **very** new
+<iframe src="https://giphy.com/embed/5G98t8QjqBLK8" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mean-girls-regina-george-stop-trying-to-make-fetch-happen-5G98t8QjqBLK8">via GIPHY</a></p>
 
 --
-### 4. Increase Speed
-- rather than require the user to navigate to entirely different HTML document, we can just get the data we need using AJAX and update the current document
+## Let's see them in action!
+
+---
+### AJAX in server side JavaScript
 
 --
-### Where can we use Ajax?
-- Ajax should be used anywhere in a web application where small amounts of information could be saved or retrieved from the server without posting back the entire pages
-- Can we think of any examples?
+### Server Side AJAX
+- `http` or `https` modules
+- requires an understanding of streaming
+- going to use `request` module from npm
 
 --
+### Request
+```
+request.get('http://pokedexapi.com/')
+  .on('response', ( response ) => {
+    console.log( response )
+  })
+```
 
-### Lets explore the technical aspects of Ajax
-Exercise 1
+--
+## Let's see it in action!
 
 ---
 ### Introducing APIs

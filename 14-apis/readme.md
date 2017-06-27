@@ -16,143 +16,30 @@
 - Closing Questions / Tying up loose ends
 - Exit Tickets
 
-## Sections to cover:
-1. AJAX
-- Understand the benefits of AJAX
-- Understand the technical aspects of AJAX
-- Where should Ajax be used?
-
-2. APIs
-- Understand the general purpose of APIs
-- Work with a 3rd party API
-- Build our own API
-- Work with the API we built
-
-## Introduction to class
-__Goal: We will be reviewing HTTP, CRUD, and Servers before learning AJAX and how to work with and build APIs ___
-
-## HTTP/CRUD Review (10 min)
-
-### HTTP Request: Method
-Meta data about our request
-​- "Cookie"​ - a list of cookies that have been set on the browser
-​- "Auth"​ - encrypted auth information
-​- "Content-type"​ - tells server what kind of content is inside the request
-- ### HTTP Request: Header
-
-### HTTP Request: Body
-Optional extra text data we can send to the server. Especially useful for ​PUT​ and ​POST​ requests.
-
-Body data is typically in the form of JSON (JavaScript Object Notation) or Form Data.
-
-### HTTP: Response
-When a server receives a request, it processes that request and then sends a response to the client.
-
-If the request is an invoice, a response is the payment being sent back.
-
-### HTTP: Response: Status Code
-Every HTTP Response has a status code that represents whether or not the request was successfully fulfilled.
-
-Have students name off some status codes
-
-### HTTP: Response: Header
-Just like the request, a response can also have headers describing metadata.
-
-### HTTP: Response: Body
-The body of a response can contain:
-
-
-## Review the CRUD and the structure of a Server (10 min)
-
-### Create
-- `save` method
-- going to take an object representing what we want to save, and create a record for it in the database
-
-### Read
-- `find` and `findOne` methods
-- going to take a field (like the id or name) and return either one or all records that match that query
-
-### Update
-- `save` method
-- get a record from the database, change some values, then save it again
-
-### Delete
-- `remove` method
-- find a aprticular record and remove it from the database
-
-### Key Terms
-relational database: | Data stored in tables and rows |
-non-relational database (NoSQL): | Data in unstructured collections |
-SQL: | Structured Query Language |
-ORM: | Object-Relational Mapping |
-
-## Warmup (30 min)
-
-## Break
+## APIs
+- API: Application Programmable Interface
+  - web application that we can interact with programmatically
+  - lets us store data in an accessible, script-able way
+- to access that data, we use a concept called AJAX
+  - way to make requests of a server from the client
 
 ## Introduce AJAX  (20 min)
-__Goals:__
-- Understand what AJAX is
-- Understand when, where and why AJAX is used
-- Understand how AJAX is relevant when working with APIs
+- Ajax is a way for the client to make requests of the server
+programmatically and without requiring a page refresh
+- makes our application feel faster, only necessary data is
+transmitted
 
-## The History of Ajax:
-
-- AJAX stands for Asynchronous JavaScript and XML
-- It is the use of the XMLHttpRequest object to communicate with server-side scripts.
-  - What is an XMLHttpRequest object?
-    - API that provides client functionality for transferring data between a client and a server
-    - It provides an easy way to retrieve data from a URL without having to do a full page refresh
-    - This enables a Web page to update just a part of the page without disrupting what the user is doing
-    - XMLHttpRequest was originally designed by Microsoft and adopted by Mozilla, Apple, and Google
-- It can send as well as receive information in a variety of formats, including JSON, XML, HTML, and even text files
-- The two major features of AJAX allow you to do the following:
-  - 1. Make requests to the server without reloading the page
-  - 2. Resolves and work with data from the server
-
-
-- Ajax is not a programming language or a tool, but a concept.
-- Ajax is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh
-
-
-## There are 4 main benefits of using AJAX:
-  1. Callbacks:
-    - Ajax is used to perform a callback, making a quick round trip to and from the server to retrieve and/or save data without posing the entire page back to the server
-    - By not performing a full postback and sending all form data to the server,
-    network utilization is minimized and quicker operations occur
-    - This improves network performance, by using callbacks the server is to required to process all form elements
-    - By sending only the necessary data, there is limited processing on the server
-
-  2. Making Asynchronous Calls
-    - ASK STUDENTS: This allows the client browser to avoid waiting for all data to arrive before allowing the user to act once more
-  3. User-Friendly
-    - Because a page postback is being eliminated, Ajax enabled applications will always be more responsive, faster and more User-Friendly
-  4. Increase Speed
-    - Example: The movie rating feature on Netflix:
-      - The user rates a movie, the rating is sent to the database and the application doesn't stop it's functioning to wait for a response or a reload
-
-
-## AJAX and how it relates to XML and JSON:
-  - JavaScript is the client-side programming language and XML is a markup language to define data.
-  - JSON is another markup language to define data.
-  - JSON (JavaScript Object Notation) is much easier to use with JavaScript than XML. When it comes to Ajax and JavaScript, JSON Web Services are replacing XML Web Services
-
-## Where should Ajax be used?
-  - Ajax should be used anywhere in a web application where small amounts of information could be saved or retrieved from the server without sending back entire pages
-    - ex: Data validation on save actions
-    - ex: Change the values in a drop down list-box based on other inputs,
-      such as state and college list boxes
-        - When the user selects the state- the college list will repopulate with only that states colleges and universities
-        - Other features include text hints and autocomplete text boxes.
-        - The client types in a couple of letters and a list of all values that start with those letters appear below.
-        - A callback is made to a web service that will retrieve all values that begin with these characters.
-
-## Technical aspects of Ajax
-  - Ajax callbacks can be done by instantiating an XmlHttpRequest object in the client-side JavaScript
-  - The XmlHttpRequest object can be used to directly call server-side objects like pages and web services
-  - These pages will either save and/or return data
-
-## BREAK (10 Min)
+## Client Side AJAX
+- 2 implementations
+  1. `XMLHttpRequest()`
+    - older, stable methodology
+    - a little cumbersome to work with
+  2. `fetch()`
+    - newer method
+    - much easier/cleaner to work with
+- Which should students use?
+  - we will be focusing on `XMLHttpRequest()`
+  - `fetch()` is not implemented in IE yet
 
 ## AJAX Exercise (20 min)
   - In order to make an HTTP request to the server using JavaScript, you need an instance of an XMLHttpRequest
@@ -166,6 +53,13 @@ __Goals:__
   -  2 (loaded)
   -  3 (interactive)
   -  4 (complete)
+
+## Server Side AJAX
+- to make server site requests, we can use the native `http`
+or `https` modules
+  - requires an understanding of streaming and piping
+  - instead, we're going to use a library that will abstract
+  that stuff away for us
 
 
 ## Introduce APIs (10 min)
@@ -190,7 +84,6 @@ History of APIs - types of APIs
     - So what happens when you're faced with a time-intensive task, like copying contact information for a thousand customers from one site to another?
       - You want to delegate this work to a computer so it can be done quickly and accurately.
       - Unfortunately, the characteristics that make websites optimal for humans make them difficult for computers to use. The solution is an API.
-
 
     - API stands for Application Programming Interface
     - An API is the tool that makes a website's data digestible for a computer.

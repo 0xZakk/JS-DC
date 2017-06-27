@@ -1,4 +1,4 @@
-### ![](assets/logo.png) Intro to JavaScript
+## ![](assets/logo.png) Intro to JavaScript
 
 ## Course information
 
@@ -267,7 +267,7 @@ In our second lesson on Databases, we'll dive deeper in to MongoDB and learn adv
 - Learn about advanced querying
 
 #### Materials
-- [Slides](https://ga-students.github.io/JS-DC/16-spas)
+- [Slides](https://ga-students.github.io/JS-DC/16-dbs2)
 - [Lesson Notes](16-spas/lesson_plan.md)
 
 
