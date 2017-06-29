@@ -50,8 +50,8 @@
 ### Middleware
 Express is based on four things:
 
-**1. Routing**
-**2. Middleware**
+1. **Routing**
+2. **Middleware**
 3. Convenience methods & properties
 4. Views
 
