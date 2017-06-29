@@ -1,6 +1,4 @@
-
-
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
 ## Class 15: Authentication
 
 ---
@@ -8,19 +6,16 @@
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 20 min | Lab Review                               |
 | 30 min | Final Project Discussion                 |
-| 10 min | Break                                    |
 | 20 min | Middleware                               |
-| 30 min | Authentication                           |
-| 10 min | Break                                    |
-| 50 min | Authentication                           |
+| 80 min | Authentication                           |
 | 5  min | Closing Questions & Exit                 |
 
 ---
 ## Looking Ahead
 | Lesson No. |        Topic             |
 | ---------- | -----------------------  |
+|     14     |   APIs                   |
 |   **15**   | **Authentication**       |
 |     16     | Single Page Apps         |
 |     17     | Deployment               |
@@ -28,36 +23,7 @@
 |     19     | Presentations            |
 
 ---
-## Lab Review
-Walk through the solution <br />
-https://github.com/ga-students/JS-DC-4-Lab02
-
----
 ## Final Projects
-- Designing and building a web application of your choice
-- check out https://gallery.generalassemb.ly/ for ideas!
-
---
-### Important Deadlines
-|  |  |
-| ----------- | --------------------------------- |
-| April 4th   | Idea Submission                   |
-| April 20th  | UI Draft and Project Requirements |
-| April 27th  | In Class Lab Time                 |
-| May 2       | Due - Presentation                |
-
---
-### Necessary Deliverables
-- a production ready web application (live, on the web)
-- a new git repository hosted on GitHub
-- a 5-10 minute presentation including: 3 technical hurdles, 2 new things you learned, Q&A
-
---
-### Project Feedback and Evaluation
-- Technical Requirements
-- Creativity
-- Code Quality
-- Problem Solving
 
 --
 ### Exercise

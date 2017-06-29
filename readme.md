@@ -41,7 +41,7 @@ D. [Class Pass](./assets/class-pass.png) printed out or on your phone
 | Lesson 12 | [Application Architecture](https://ga-students.github.io/JS-DC/12-architecture) |
 | Lesson 13 | [**Project 2** - HackerWall](https://ga-students.github.io/JS-DC/13-lab02) |
 | Lesson 14 | [APIs](https://ga-students.github.io/JS-DC/14-apis)|
-| Lesson 15 | [Single Page Applications](https://ga-students.github.io/JS-DC/15-spas) |
+| Lesson 15 | [Authentication](https://ga-students.github.io/JS-DC/15-authentication) |
 | Lesson 16 | [Databases #2](https://ga-students.github.io/JS-DC/16-dbs2)| 
 | Lesson 17 | [Deploying Your App](https://ga-students.github.io/JS-DC/17-deployment) |
 | Lesson 18 | **Project 3** Your App                                  |

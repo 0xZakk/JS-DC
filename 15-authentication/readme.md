@@ -17,10 +17,6 @@
 - Closing Questions / Tying up loose ends
 - Exit Tickets
 
-## Lab Review
-
-### Application walk through
-
 ### Final Project
 The assignment for today was to submit your final project idea. Today we're going to flush them out a together.
 
