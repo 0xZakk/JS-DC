@@ -17,7 +17,7 @@
 | ---------- | -----------------------  |
 |     14     |   APIs                   |
 |   **15**   | **Authentication**       |
-|     16     | Single Page Apps         |
+|     16     | Databases Part 2         |
 |     17     | Deployment               |
 |     18     | Final Project            |
 |     19     | Presentations            |
