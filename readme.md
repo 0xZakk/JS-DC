@@ -256,22 +256,7 @@ learn about middleware.
 - [Lesson Notes](15-authentication/lesson_plan.md)
 - [Lesson](https://www.youtube.com/watch?v=FeEt9JgAtEo)
 
-
-### Class 16: Databases Part 2
-In our second lesson on Databases, we'll dive deeper in to MongoDB and learn advanced querying techniques.
-
-#### Learning Objectives
-- Understand the basics of promises
-- List the various forms of validation we can apply to our model
-- Use subdocuments to associate resources
-- Learn about advanced querying
-
-#### Materials
-- [Slides](https://ga-students.github.io/JS-DC/16-dbs2)
-- [Lesson Notes](16-spas/lesson_plan.md)
-
-
-### Class 17: Deployment
+### Class 16: Deployment
 For our last lesson, we'll cover making our applications live and
 publishing them so that others can see and use them!
 
@@ -284,6 +269,19 @@ publishing them so that others can see and use them!
 - [Slides](https://ga-students.github.io/JS-DC/17-deployment)
 - [Lesson Notes](17-deployment/lesson_plan.md)
 
+
+### Class 17: Databases Part 2
+In our second lesson on Databases, we'll dive deeper in to MongoDB and learn advanced querying techniques.
+
+#### Learning Objectives
+- Understand the basics of promises
+- List the various forms of validation we can apply to our model
+- Use subdocuments to associate resources
+- Learn about advanced querying
+
+#### Materials
+- [Slides](https://ga-students.github.io/JS-DC/16-dbs2)
+- [Lesson Notes](16-spas/lesson_plan.md)
 
 ### Class 18: Final Project: Day 1
 [Project Requirements](18-final-project-01/requirements.md)
