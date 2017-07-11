@@ -1,9 +1,8 @@
-# Single Page Applications
+#
 
-# Learning Objectives
+## Learning Objectives
 - Understand the architecture of a SPA
 - Build out a basic SPA
-# Single Page applications
 
 ## Class Structure
 - Welcome to Class
@@ -15,82 +14,166 @@
 - Closing Questions / Tying up loose ends
 - Exit Tickets
 
-## Final Project
-Start with two 20 minute exercises:
-  1. Wireframing
-  2. User Journeys
+## Advanced Mongo Queries
+- Querying the database can be broken up in to 2 parts:
+  1. A query
+  2. Filtering
 
-### User Experience Exercise
-__Quick UX/UI exercise to draw and iterate on final project__
-We're going to start class with two quick User Experience exercises that will help you think more holistically about your application.
+### Query
+- An object that we send to the database
+- all items in the collection are matched against this object
+- the positive matches are returned
+- we can query against any parameter defined in our Schema
 
-Each exercise we do is aimed at making the idea in your mind a little bit more clear so that when you go to start building, you have a plan of what it is you're building - what the finished product will be.
+### Common Queries
 
-Today we're going to be doing _wireframing_ and _user journeys_.
+Given the following Schema:
+```
+const pokemonSchema = new Schema({
+  name: String,
+  attack: Number,
+  defense: Number,
+  evolveLevel: Number,
+  type: String,
+  moves: Array,
+})
+```
 
-__wireframing:__ sketch and outline the views of our applications, without necessarily thinking about styling yet
+1. Find all pokemon
+```
+Pokemon.find({}, callback)
+```
 
-__user journeys:__ creating a map of how a user will navigate through and around your application
+2. Find a pokemon by it's ID
+We've already seen how to find a pokemon by it's ID:
+```
+Pokemon.find({'_id': someId}, callback)
+```
 
-These two exercises are going to help us achieve two things:
-  1. understanding what views we'll have in our application and help us understand how each view is going to be structured and
-  2. understand the architecture of our application
+3. Find a pokemon by it's name
+```
+app.get('/find-by-name/:name', ( req, res ) => {
+  Pokemon.findOne({ 'name': req.params.name }, ( err, pokemon ) => {
+    res.json( pokemon )
+  })
+})
+```
 
-#### Wireframing
-Wireframing is the process of quickly sketching out the views of our applications
+4. Find a pokemon by it's evolveLevel
+```
+app.get('/find-by-evolveLevel/:evolveLevel', ( req, res ) => {
+  Pokemon.find({ 'evolveLevel': req.params.evolveLevel }, ( err, pokemon ) => {
+    res.json( pokemon )
+  })
+})
+```
 
-The purpose is to quickly test out different ideas. Nothing we draw is final, we can throw anything away and start over. The goal is to come up with a layout and organization for the content of a specific view that will work the best.
+5. Find a pokemon with an attack greater than a certain number
+```
+app.get('/find-by-attack/:attack', ( req, res ) => {
+  Pokemon.find({ 'attack': { $gt: req.params.attack } }, ( err, pokemon ) => {
+    res.json( pokemon )
+  })
+})
+```
+You can also search for less than values with `$lt`
 
-To do this we need to think about what each view is going to show and so what kind of information we're going to have on it.
+### Filter
+In addition to querying, we can filter results once we get them back to the database.
 
-The best way to do this is to start broad and work our way down
+This is an important distinction:
+  - querying provides a set of criteria to the database and we get the results back that meet those
+  criteria
+  - filtering takes the results we got from the database and lets us narrow them down (filter them)
 
-__See it in action:__
-- wireframe a view of your application
-- probably the farmer's market detail view
-- things to consider: what information do I want to show on this page:
-  - image, title, location, link to driving directions?
+1. We can filter against criteria, like querying:
+```
+app.get('/filter/find-by-attack/:attack', ( req, res ) => {
+  Pokemon.find({})
+    .where('attack').gt( req.params.attack )
+    .exec( ( err, pokemons ) => {
+      res.json( pokemons )
+    })
+})
+```
 
-__Class Activity:__
-- now everyone pick one potential view from their application and wireframe it
-- think about what information you might have on your view first
-- come up with three different ways of displaying that information
+2. We can filter to only return a certain number of results
+```
+app.get('/filter/limit-by-attack/:attack', ( req, res ) => {
+  Pokemon.find({})
+    .where('attack').gt( req.params.attack )
+    .limit(10)
+    .exec( ( err, pokemons ) => {
+      res.json( pokemons )
+    })
+})
+```
 
-#### User Journeys
-User Journey mapping the processes of mapping the flow of users through an application. This typically has a very specific goal, like getting them to sign up or become a member of your application or to get them to purchase your product.
+3. We can filter to sort our results
+```
+app.get('/filter/sort-by-attack/:attack', ( req, res ) => {
+  Pokemon.find({})
+    .where('attack').gt( req.params.attack )
+    .limit(10)
+    .sort('attack')
+    .exec( ( err, pokemons ) => {
+      res.json( pokemons )
+    })
+})
+```
 
-At their softer, more UX-ey level, they get in to a lot about who your actual users are by creating user personas. They also help you identify parts of your application that could be bottlenecks.
+## Promises
+- before we can really talk about promises, we need to understand the problem that Promises solve
 
-At their more technical level, they'll basically translate into the routes and views of your application and how they all relate to each other.
+### Asynchronous Programming
+- Node/JavaScript is an asynchronous language (Python is synchronous)
+- practically: means that one line of code doesn't need to finish executing before the next line is read
+  - contrast with Python: does one thing at a time
+  - you can think of it as: JavaScript can juggle, Python throws one ball at a time
+- we saw this initially when we discussed databases
+  - DB queries take some time, we want to ensure that what ever action we want to perform on the data we're
+  querying for happens _after_ the query has come back
+  - we solved this with callbacks
+  - what happens when we need to do multiple asynchronous tasks in order?
 
-__See it in action:__
-- map out all the views of your application and how they'll relate to each other
-- start with the home page, search for farmer's markets by location, then open the view for a specific farmers markets
+This is the problem that Promises solve: callback hell
 
-__Class Activity:__
-- Everyone map out the navigation through their application
+### Callback Hell
+- When we need to perform multiple asynchronous tasks in order, we end up deeply nesting multiple callbacks
+- This is difficult to debug and extremely difficult to read:
 
+```
+doSomething(function(result) {
+  doSomethingElse(result, function(newResult) {
+    doThirdThing(newResult, function(finalResult) {
+      console.log('Got the final result: ' + finalResult);
+    }, failureCallback);
+  }, failureCallback);
+}, failureCallback);
+```
 
-## Single Page Applications
-An application delivered to the browser that doesn't reload the page during use.
+With promises we get something like this: 
+```
+doSomething()
+.then(result => doSomethingElse(result))
+.then(newResult => doThirdThing(newResult))
+.then(finalResult => {
+  console.log(`Got the final result: ${finalResult}`);
+})
+.catch(failureCallback);
+```
 
-We can think of a fat client that's loaded from a web server.
+- Promises do not eliminate callbacks, they use callbacks.
+- Promises ensure that callbacks are called in the same predictable manner
 
-### Architecture
-Weight:
-  - we started with just the client
-  - we then worked our way backwards, adding a server and then a database
-  - then we built full stack applications that used all three of these, but the majority of our logic lived in the middle ( in the server )
-  - that's how a lot of applications work today
-  - SPAs fatten up or push a lot of logic to the client here
+### Using Promises
+- We create a new promise using the `Promise` constructor
+- not very useful on their own
+- we return a promise from an asynchronous function
+- the promise acts as an object that will resolve to some data at some point in the future
 
-What kind of logic might we want to push to the client?
-  - views/rendering
-  - simple calculations and data manipulation
-
-### History
-- have become industry standard when building Apps
-- to the point that users will find it frustrating to wait for a page refresh
-- for a long time building a single page app required not only a lot of work but what you'd end up with wasn't great
-- the first mainstream single page app was gmail
-- driven by the desire to provide a really fluid and interactive user experience
+## Array Methods
+- In future versions of this class, I'm going to add a class on Arrays
+- Arrays are a very common and under-utilized data type
+- It's rare that we'll be dealing with a single object - so it's important to be able to process arrays in
+batch

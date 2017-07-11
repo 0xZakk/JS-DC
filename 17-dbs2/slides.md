@@ -1,84 +1,111 @@
-
-
-<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
-## Class 16: Single Page Applications
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" style="max-width: 100px; border: none; box-shadow: none"/>
+## Class 17: Databases, Promises, and FP
+Oh my!
 
 ---
 ### Agenda
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 40 min | Final Project                            |
-| 10 min | Break                                    |
-| 50 min | Single Page Applications                 |
-| 10 min | Break                                    |
-| 50 min | Single Page Applications                 |
+| 30 min | Advanced Mongo Queries |
+| 30 min | Promises |
+| 30 min | Arrays 2 |
+| 40 min | Final Project |
 | 5  min | Closing Questions & Exit                 |
 
 ---
 ## Looking Ahead
 | Lesson No. |        Topic             |
 | ---------- | -----------------------  |
+|     14     |   APIs                   |
 |     15     |   Authentication         |
-|   **16**   | **Single Page Apps**     |
-|     17     |   Deployment             |
-|     18     |   Final Project          |
-|     19     |   Presentations          |
+|     16     |   Deployment             |
+|   **17**   | **Wild Card**            |
+|     18     | Final Project            |
+|     19     | Presentations            |
 
 ---
-## Final Project
+## Advanced Mongo
 
 --
-## User Experience Research
-- Wireframing
-- User Journeys
+### Advanced Mongo
+1. Queries
+2. Filters
 
 --
-### Wireframing
-Sketch and outline the views of our applications
+### Query
+- Object we send to the database
+- All instances are matched against this object
+- The positive matches are returned
+- Can query against any parameter defined in our Schema
 
 --
-### How to Wireframe
-- hand drawn symbols for components of our application
-- we can layout these symbols however we like and test out different layouts
-- start broad and work your way in
+### Filter
+- Once we have a query, we can filter the results
+- Narrow down final results by criteria
+- limit number of results
+- sort results
 
 --
-### Our first wireframe
+### Key difference:
+- Query: set of criteria to match records in the DB against
+- Filter: manipulating results from the DB
 
 --
-### Now you make one!
-
---
-### User Journeys
-Creating a map of how a user will navigate through and around our applications
-
---
-### Our first user journey
-
---
-### Now you make one!
+### Let's see them in action!
 
 ---
-## Single Page Applications
+## Promises
 
 --
-### Architecture
-![JS Application](images/01-fig.jpg)
+### Promises: solution to a problem
+- node/js is asynchronous
+- traditionally handled by callbacks
 
 --
-### Architecture
-![JS Application](images/02-fig.jpg)
+### Callback hell:
+```
+doSomething(function(result) {
+  doSomethingElse(result, function(newResult) {
+    doThirdThing(newResult, function(finalResult) {
+      console.log('Got the final result: ' + finalResult);
+    }, failureCallback);
+  }, failureCallback);
+}, failureCallback);
+```
 
 --
-### History
-- tied to the history and development of AJAX
-- have become the industry standard for building applications
-- driven by the desire to provide a fluid and interactive user experience
+### Promises
+```
+doSomething()
+.then(result => doSomethingElse(result))
+.then(newResult => doThirdThing(newResult))
+.then(finalResult => {
+  console.log(`Got the final result: ${finalResult}`);
+})
+.catch(failureCallback);
+```
 
 --
-## Building an SPA
-Lets build one!
+### Using Promises (Pt 1)
+```
+function wait( time ) {
+  return new Promise(function( resolve, reject ) {
+    return setTimeout( resolve, time )
+  })
+}
+```
+
+--
+### Using Promises (Pt 2)
+```
+wait(3000).then(function() {
+  console.log('Hello Promises!')
+})
+```
 
 ---
-## The end
+## Working with Arrays
+
+--
+### Let's see them in action
